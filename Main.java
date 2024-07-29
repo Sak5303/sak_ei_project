@@ -14,6 +14,7 @@ public class Main {
 
             switch (choice) {
                 case 0:
+                    //adding a new task
                     System.out.println("Enter the description, start time, end time, priority (L/M/H):");
                     String input = sc.nextLine();
                     String[] inputs = input.split(" ");
